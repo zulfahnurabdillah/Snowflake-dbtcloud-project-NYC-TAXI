@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: NYC_TAXI_DB
+    schema: RAW
+    tables:
+      - name: TRIPS
+
+seeds:
+  - name: taxi_zone_lookup
+    description: "Tabel lookup untuk ID lokasi NYC Taxi."
+  - name: payment_types
+    description: "Tabel lookup untuk tipe pembayaran."
