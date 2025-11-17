@@ -1,0 +1,5 @@
+PUT 'file://C:\path\to\your\files\yellow_tripdata_2024-01.parquet' @~/taxi_data/;
+PUT 'file://C:\path\to\your\files\yellow_tripdata_2024-02.parquet' @~/taxi_data/;
+PUT 'file://C:\path\to\your\files\yellow_tripdata_2024-03.parquet' @~/taxi_data/;
+PUT 'file://C:\path\to\your\files\yellow_tripdata_2024-04.parquet' @~/taxi_data/;
+PUT 'file://C:\path\to\your\files\yellow_tripdata_2024-05.parquet' @~/taxi_data/;
